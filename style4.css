@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+    height: 93vh;
+    background-image: url(banner-2.jpg.webp);
+    z-index: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #fcdc00;
+    transition: 1.5s;
+}
+
+.navbitmap {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.navlinks {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    font-size: 12px;
+    padding-top: 1.5%;
+}
+
+.imglogo {
+    display: flex;
+    padding-left: 7%;
+}
+
+.homeamarelo {
+    color: white;
+    display: flex;
+    padding-left: 37%;
+    padding-right: 50px;
+    
+}
+
+
+.gallery {
+    color: white;
+    display: flex;
+    padding-right: 50px;
+}
+
+
+.services {
+    color: white;
+    display: flex;
+    padding-right: 50px;
+}
+
+
+.about {
+    color: white;
+    display: flex;
+    padding-right: 50px;
+}
+
+
+.elements {
+    color: white;
+    display: flex;
+    padding-right: 50px;
+}
+
+
+.blog {
+    color: white;
+    display: flex;
+    padding-right: 50px;
+}
+
+
+.contact {
+    color: white;
+    display: flex;
+    padding-right: 50px;
+}
+
+
+.lupa {
+    fill: white;
+}
+
+.divcontainer {
+  height: 336px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 27%;
+}
+
+.divbtext {
+  
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.divbtext>h1 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.divbtext>p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.divbtext>button {
+  background-color: white;
+  color: black;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+  
+  transition: 1s;
+  font-family: "Poppins", sans-serif;
+}
+
+.divbtext>button:hover {
+  background-color: #fcdc00;
+}
